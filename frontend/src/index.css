@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 @import "tailwindcss";
+=======
+.slick-dots li button {
+  border-radius: 50%;  
+}
+
+.slick-dots li.slick-active button {
+  background-color: orangered
+  
+}
+>>>>>>> 51e77c7 (Added bootstrap and designed testimonals)
