@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .slick-dots li button {
   border-radius: 50%;  
 }
