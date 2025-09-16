@@ -22,10 +22,10 @@ const NavBarDesktop = () => {
             <Link to="/" className="hover:text-blue-500">HOME</Link>
             <Link to="/about" className="hover:text-blue-500">ABOUT</Link>
             <Link to="/whyUs" className="hover:text-blue-500">WHY US</Link>
-            <li className="relative"  onMouseLeave={()=>{setDropDown(false)}}>
+            <li className="relative"  onMouseLeave={()=>{setDropDown(false)}} onClick={()=>{setDropDown(false)}}>
               <Link className="hover:text-blue-500" 
               onMouseEnter={()=>{setDropDown(true)}}
-              // onMouseLeave={()=>{setDropDown(false)}}
+              
               >SERVICES</Link>
                {dropDown && <DropDown />}
             </li>

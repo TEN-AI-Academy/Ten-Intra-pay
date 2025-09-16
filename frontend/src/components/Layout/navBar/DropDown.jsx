@@ -7,28 +7,60 @@ const DropDown = () => {
     const services=[
         {
             title:"Resume Building",
-            path:"/resumeBuilding",
+            path:"/resume-writing-services-india",
         },
         {
             title:"LinkedIn Profile Maker",
-            path:"/linkedInProfileMaker",
+            path:"/linkedin-profile-makeover-india",
         },
         {
             title:"Profile Evaluation",
-            path:"/profileEvaluation",
+            path:"/profile-evaluation",
         },
         {
             title:"Employee Referral PRO",
-            path:"/employeeReferralPRO",
+            path:"/pro",
+        },
+        {
+            title:"Online CV",
+            path:"/online-cv",
+        },
+        {
+            title:"LinkedIn Recommendations",
+            path:"/linkedin-recommendations",
+        },
+        {
+            title:"Naukri Profile Makeover",
+            path:"/naukri-profile-makeover",
+        },
+        {
+            title:"Mock Interview",
+            path:"/mock-interview",
+        },
+        {
+            title:"Interview Preparation",
+            path:"/",
+        },
+        {
+            title:"Offers",
+            path:"/",
+        },
+        {
+            title:"Mega Bundle Offer",
+            path:"/",
+        },
+        {
+            title:"Registration",
+            path:"/",
         },
     ]
     
   return (
-        <ul className='bg-blue-400 w-50 absolute top-full right-2 sm:left-2'>
+        <ul className='bg-blue-400 w-55 absolute top-full z-50'>
             {services.map((item)=>{
                 return (
                     <li>
-                        <Link to={item.path} className='hover:bg-amber-400 block border-b-1 p-1 border-white'>{item.title}</Link>
+                        <Link to={item.path} className='hover:bg-[#fb923c] block border-b-1 p-1 text-white border-white'>{item.title}</Link>
                     </li>
                 )
             })}
