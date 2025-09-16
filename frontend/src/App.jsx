@@ -3,6 +3,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Layout from './components/Layout/Layout'
+import ResumeBuilding from './pages/Services/ResumeBuilding'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import LinkedInProfileMakeover from './pages/Services/LinkedInProfileMakeover'
+import ProfileEvaluation from './pages/Services/ProfileEvaluation'
+import EmployeeRefferalPro from './pages/Services/EmployeeRefferalPro'
 
 const App = () => {
   return (
@@ -11,6 +17,10 @@ const App = () => {
         <Route path='/' element={<Layout/>}>
            <Route path="/" element={<Home />} />
            <Route path="/about" element={<About />} />
+           <Route path="/resume-writing-services-india" element={<ResumeBuilding />} />
+           <Route path="/linkedin-profile-makeover-india" element={<LinkedInProfileMakeover />} />
+           <Route path="/profile-evaluation" element={<ProfileEvaluation />} />
+           <Route path='/pro' element={<EmployeeRefferalPro/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

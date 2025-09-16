@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
-import vercel from '@vercel/vite-plugin-vercel'
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), vercel()]
+  plugins: [react(), tailwindcss()]
 })

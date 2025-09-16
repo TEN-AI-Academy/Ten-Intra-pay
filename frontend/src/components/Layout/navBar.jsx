@@ -3,7 +3,7 @@
 const NavBar = ()=>{
 
     return(
-       <nav className="bg-white sticky top-0 w-full h-18 flex justify-evenly shadow-xl">
+       <nav className="bg-white sticky top-0 w-full h-18 flex justify-evenly shadow-xl z-10">
            <div>
            <img src="https://www.unish.co.jp/img/common/EN_header_company.jpg" alt="" />
            </div>
