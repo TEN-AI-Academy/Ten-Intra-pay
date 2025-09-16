@@ -21,7 +21,7 @@ const NavBarDesktop = () => {
           <ul className="flex space-x-6 items-center">
             <Link to="/" className="hover:text-blue-500">HOME</Link>
             <Link to="/about" className="hover:text-blue-500">ABOUT</Link>
-            <Link to="/whyUs" className="hover:text-blue-500">WHY US</Link>
+            <Link to="/why-us" className="hover:text-blue-500">WHY US</Link>
             <li className="relative"  onMouseLeave={()=>{setDropDown(false)}} onClick={()=>{setDropDown(false)}}>
               <Link className="hover:text-blue-500" 
               onMouseEnter={()=>{setDropDown(true)}}
@@ -29,9 +29,9 @@ const NavBarDesktop = () => {
               >SERVICES</Link>
                {dropDown && <DropDown />}
             </li>
-            <Link to="/FAQ'S" className="hover:text-blue-500">FAQ'S</Link>
-            <Link to="/blog" className="hover:text-blue-500">BLOG</Link>
-            <Link to="/contactUs" className="hover:text-blue-500">CONTACT US</Link>
+            <Link to="/faq" className="hover:text-blue-500">FAQ'S</Link>
+            <Link to="/" className="hover:text-blue-500">BLOG</Link>
+            <Link to="/contact-us" className="hover:text-blue-500">CONTACT US</Link>
          </ul>
        </nav>
     </div>

@@ -102,19 +102,19 @@ const SideBarMobile = () => {
         },
         {
             title:"Why Us",
-            path:"/whyUs",
+            path:"/why-us",
         },
         {
             title:"FAQ'S",
-            path:"/FAQ'S",
+            path:"/faq",
         },
         {
             title:"Blog",
-            path:"/blog",
+            path:"/",
         },
         {
             title:"Contact Us",
-            path:"/contactUs",
+            path:"/contact-us",
         },
     ]
 
