@@ -56,7 +56,7 @@ const DropDown = () => {
     ]
     
   return (
-        <ul className='bg-blue-400 w-55 absolute top-full z-50'>
+        <ul className='bg-blue-400 w-55 absolute top-full z-[9999]'>
             {services.map((item)=>{
                 return (
                     <li>

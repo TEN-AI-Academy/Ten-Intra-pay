@@ -8,7 +8,7 @@ function Layout() {
   return (
     <>
       <NavBar/>
-      <div className="">
+      <div className="relative z-[-10]">
         <Outlet /> 
       </div>
       <Footer/>

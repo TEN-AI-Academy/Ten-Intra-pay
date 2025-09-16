@@ -7,7 +7,7 @@ import NavBarMobile from "./NavBarMobile"
 const NavBar = ()=>{
         
    return(
-      <div className="z-50">
+      <div className="z-[9999]">
          <NavBarDesktop/>
          <NavBarMobile/>
       </div>
