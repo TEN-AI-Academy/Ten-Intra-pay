@@ -11,11 +11,11 @@ const ContactUs = () => {
     { name: 'Contact Us', link: 'contact-us' }
   ]
   return (
-    <div style={{backgroundImage:"url(/images/contactUs-Background.jpg)",height:"100vh"}} >
-       <div className='text-white pt-10 pl:10 md:pl-30'>
+    <div style={{backgroundImage:"url(/images/contactUs-Background.jpg)"}} >
+       <div className='text-white p-10 md:pl-60'>
          <BreadCrum data={breadCrum}/>
        </div>
-       <div className='flex'>
+       <div className='flex flex-wrap md:pl-10 justify-center items-center'>
        <ContactDisplay/>
        <ContactUsForm/>
        </div>

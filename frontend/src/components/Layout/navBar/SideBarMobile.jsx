@@ -120,11 +120,11 @@ const SideBarMobile = () => {
 
   return (
     <div className="relative">
-       <button  class="flex flex-col justify-center items-center space-y-1.5 w-10 h-10  bg-blue-400 focus:outline-none"
+       <button  className="flex flex-col justify-center items-center space-y-1.5 w-10 h-10  bg-blue-400 focus:outline-none"
                       onClick={()=>{setOpen(true)}}>
-                          <span class="block h-0.5 w-6 bg-white transition-all duration-300"></span>
-                          <span class="block h-0.5 w-6 bg-white transition-all duration-300"></span>
-                          <span class="block h-0.5 w-6 bg-white transition-all duration-300"></span>
+                          <span className="block h-0.5 w-6 bg-white transition-all duration-300"></span>
+                          <span className="block h-0.5 w-6 bg-white transition-all duration-300"></span>
+                          <span className="block h-0.5 w-6 bg-white transition-all duration-300"></span>
                      </button>
 
       {open && (
@@ -145,9 +145,9 @@ const SideBarMobile = () => {
         </div>
         <nav className="p-2 space-y-4">
           <ul>
-             {options.map((item)=>{
+             {options.map((item,index)=>{
                 return (
-                    <li>
+                    <li key={index}>
                         <Link to={item.path} className={`hover:bg-amber-400 block border-b border-gray-200 p-1  ${item.title === "Profile Building" || item.title==="Others" || item.title==="Employee Referral PRO"  || item.title==="Explore" ? "bg-gray-200" : ""}`}
                           onClick={()=>{setOpen(false)}}
                         >{item.title}</Link>

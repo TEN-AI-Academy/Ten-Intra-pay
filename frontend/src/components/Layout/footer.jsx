@@ -4,7 +4,7 @@ const Footer=()=>{
 
  return(
   <>
-   <div className="m-15"></div>
+   <div className="m-15 md:m-0"></div>
    <div className="bg-[#112d52] w-full h-auto pt-10 pl-10 pr-10 pb-10 md:pr-30 md:pl-30 md:flex md:justify-around" >
         <div className="mb-5">
             <h3 className="text-white font-medium mb-3 text-xl">About Us</h3>
