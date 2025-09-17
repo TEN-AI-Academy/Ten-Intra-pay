@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import About from './pages/About'
+import Faq from './pages/Faq'
 import Layout from './components/Layout/Layout'
 import ResumeBuilding from './pages/Services/ResumeBuilding'
 import 'slick-carousel/slick/slick.css'
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/' element={<Layout/>}>
            <Route path="/" element={<Home />} />
            <Route path="/about" element={<About />} />
+           <Route path="/faq" element={<Faq />} />
            <Route path="/resume-writing-services-india" element={<ResumeBuilding />} />
            <Route path="/linkedin-profile-makeover-india" element={<LinkedInProfileMakeover />} />
            <Route path="/profile-evaluation" element={<ProfileEvaluation />} />
