@@ -10,6 +10,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import LinkedInProfileMakeover from './pages/Services/LinkedInProfileMakeover'
 import ProfileEvaluation from './pages/Services/ProfileEvaluation'
 import EmployeeRefferalPro from './pages/Services/EmployeeRefferalPro'
+import ContactUs from './pages/ContactUs'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
            <Route path="/" element={<Home />} />
            <Route path="/about" element={<About />} />
            <Route path="/faq" element={<Faq />} />
+           <Route path="/contact-us" element={<ContactUs/>} />
            <Route path="/resume-writing-services-india" element={<ResumeBuilding />} />
            <Route path="/linkedin-profile-makeover-india" element={<LinkedInProfileMakeover />} />
            <Route path="/profile-evaluation" element={<ProfileEvaluation />} />

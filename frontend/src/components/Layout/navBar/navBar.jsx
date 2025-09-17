@@ -7,7 +7,7 @@ import NavBarMobile from "./NavBarMobile"
 const NavBar = ()=>{
         
    return(
-      <div className="z-[9999]">
+      <div className="sticky top-0 bg-white shadow-xl z-[9999]">
          <NavBarDesktop/>
          <NavBarMobile/>
       </div>
