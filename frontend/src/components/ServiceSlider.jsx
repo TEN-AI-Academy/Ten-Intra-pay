@@ -12,7 +12,7 @@ const ServiceSlider = ({ data }) => {
 
   const slider_data = data || []
   return (
-    <Slider className='w-full h-full' {...settings}>
+    <Slider className='w-full h-full mb-8' {...settings}>
       {slider_data.map((image, index) => (
         <img
           src={image.image}

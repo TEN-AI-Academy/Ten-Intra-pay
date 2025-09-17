@@ -11,6 +11,10 @@ import LinkedInProfileMakeover from './pages/Services/LinkedInProfileMakeover'
 import ProfileEvaluation from './pages/Services/ProfileEvaluation'
 import EmployeeRefferalPro from './pages/Services/EmployeeRefferalPro'
 import ContactUs from './pages/ContactUs'
+import OnlineCV from './pages/Services/OnlineCV'
+import LinkedInRecommendation from './pages/Services/LinkedInRecommendation'
+import NaukriProfileMakeover from './pages/Services/NaukriProfileMakeover'
+import MockInterview from './pages/Services/MockInterview'
 
 const App = () => {
   return (
@@ -25,6 +29,10 @@ const App = () => {
            <Route path="/linkedin-profile-makeover-india" element={<LinkedInProfileMakeover />} />
            <Route path="/profile-evaluation" element={<ProfileEvaluation />} />
            <Route path='/pro' element={<EmployeeRefferalPro/>}/>
+           <Route path='/online-cv' element={<OnlineCV/>}/>
+           <Route path='/linkedin-recommendations' element={<LinkedInRecommendation/>}/>
+           <Route path='/naukri-profile-makeover' element={<NaukriProfileMakeover/>}/>
+           <Route path='/mock-interview' element={<MockInterview/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

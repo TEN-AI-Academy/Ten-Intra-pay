@@ -46,30 +46,30 @@ const EmployeeBenefitsTable = () => {
           </tr>
           <tr>
             <td className='w-3/5 border-1 border-white bg-blue-950 text-white p-2 text-sm'>
-              2 Free Employee Referrals upon availing Resume & LinkedIn Services
+              Personal Relationship Manager Assistance
             </td>
-            <TickImage />
             <CrossImage />
+            <TickImage />
           </tr>
           <tr>
             <td className='w-3/5 border-1 border-white bg-blue-950 text-white p-2 text-sm'>
-              Job search support *
+              Connect directly with Referring Employees
             </td>
-            <TickImage />
             <CrossImage />
+            <TickImage />
           </tr>
           <tr>
             <td className='w-3/5 border-1 border-white bg-blue-950 text-white p-2 text-sm'>
-              2 Free Employee Referrals upon availing Resume & LinkedIn Services
+              Avail all Employee Referral Program in One-Go
             </td>
-            <TickImage />
             <CrossImage />
+            <TickImage />
           </tr>
           <tr>
             <td className='w-3/5 border-1 border-white bg-blue-950 text-white p-2 text-sm'>
-              Job search support *
+              Guaranteed Interview Call from Recruiters
             </td>
-            <TickImage />
+            <CrossImage />
             <CrossImage />
           </tr>
         </tbody>

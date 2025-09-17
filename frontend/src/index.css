@@ -1,10 +1,12 @@
 @import 'tailwindcss';
-.slick-dots li button {
-  border-radius: 50%;
+
+.slick-dots li button:before{
+  font-size: 10px !important;
+
 }
 
-.slick-dots li.slick-active button {
-  background-color: orangered;
+.slick-dots li.slick-active button:before{
+  color: rgb(0, 153, 255) !important;
 }
 
 @keyframes shake {
@@ -43,4 +45,18 @@
 
 .hover\:animate-shake:hover {
   animation: shake 0.5s ease-in-out;
+}
+
+
+@keyframes blink{
+  0%,100%{
+    background-color: #e5e7eb;
+  }
+  50%{
+    background-color: #bfdbfe;
+  }
+}
+
+.animate-blink{
+  animation: blink step-end 1s infinite;
 }

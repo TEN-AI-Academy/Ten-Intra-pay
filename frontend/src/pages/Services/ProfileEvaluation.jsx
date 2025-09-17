@@ -17,8 +17,7 @@ const BannerText = () => {
 
 const ProfileEvaluation = () => {
   const breadCrum = [
-    { name: 'Home', link: '#' },
-    { name: 'Profile Evaluation', link: '#' }
+    { name: 'Profile Evaluation', link: '/profile-evaluation' }
   ]
   return (
     <div>
@@ -63,18 +62,21 @@ const ProfileEvaluation = () => {
               text={
                 "Upload your Resume and LinkedIn ID regardless what state it's in"
               }
+              image='share.png'
             />
             <StepsCard
               heading='Share your Resume and LinkedIn Id'
               text={
-                "Upload your Resume and LinkedIn ID regardless what state it's in"
+                "Our Expert Review your Resume and LinkedIn based on 10+ parameters as per the Industry Standards"
               }
+              image='document.png'
             />
             <StepsCard
-              heading='Share your Resume and LinkedIn Id'
+              heading='GET FEEDBACK ON RESUME AND LINKEDIN PROFILE'
               text={
-                "Upload your Resume and LinkedIn ID regardless what state it's in"
+                "You will get your Resume and LinkedIn Score. If it's high, great! If the Score is low, you can get detailed feedback from our Expert to fix the same"
               }
+              image='feedback.png'
             />
           </div>
         </div>

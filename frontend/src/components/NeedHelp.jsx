@@ -12,7 +12,7 @@ const NeedHelp = () => {
         </div>
         <div>
           <p className='text-blue-500 mb-1 font-semibold text-lg'>Talk to Us</p>
-          <p className='text-2xl font-semibold'>Call Us: +91 8884520000</p>
+          <p className='text-2xl font-semibold'>Call Us: +91 1234567890</p>
           <p className='text-sm'>(9.00 AM to 9.00 PM IST)</p>
         </div>
       </div>

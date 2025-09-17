@@ -33,8 +33,7 @@ const EmployeeRefferalPro = () => {
   const totalCharge = referralCharge
 
   const breadCrum = [
-    { name: 'Home', link: '#' },
-    { name: 'Employee Referral PRO', link: '#' }
+    { name: 'Employee Referral PRO', link: '/pro' }
   ]
 
   return (
@@ -111,14 +110,39 @@ const EmployeeRefferalPro = () => {
         </div>
 
         <div className='w-full my-5'>
-            <p className='text-2xl font-semibold text-center text-red-600'>How it works?</p>
+          <p className='text-2xl font-semibold text-center text-red-600'>
+            How it works?
+          </p>
 
-            <div className='grid md:grid-cols-4 md:gap-10'>
-                <StepsCard step={1} text={"Post payment, our Expert will connect with you to conduct a Brainstorming session"}/>
-                <StepsCard step={2} text={"Post payment, our Expert will connect with you to conduct a Brainstorming session"}/>
-                <StepsCard step={3} text={"Post payment, our Expert will connect with you to conduct a Brainstorming session"}/>
-                <StepsCard step={4} text={"Post payment, our Expert will connect with you to conduct a Brainstorming session"}/>
-            </div>
+          <div className='grid md:grid-cols-4 md:gap-10'>
+            <StepsCard
+              step={1}
+              text={
+                'Post payment, our Expert will connect with you to conduct a Brainstorming session'
+              }
+            />
+            <StepsCard
+              step={2}
+              text={
+                'Receive detailed information of "The Process" to proceed further'
+              }
+              image='mail.png'
+            />
+            <StepsCard
+              step={3}
+              text={
+                'Receive customized profiles based on your choice of delivery options and avail Referral credits'
+              }
+              image='custom-profile.png'
+            />
+            <StepsCard
+              step={4}
+              text={
+                'Our Expert starts the Job hunt for you, upon your approval of the job profile you will be directly connected with Referring Employees'
+              }
+              image='experts.png'
+            />
+          </div>
         </div>
       </div>
     </div>
