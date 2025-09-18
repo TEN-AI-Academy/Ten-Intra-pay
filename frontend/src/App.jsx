@@ -15,6 +15,8 @@ import OnlineCV from './pages/Services/OnlineCV'
 import LinkedInRecommendation from './pages/Services/LinkedInRecommendation'
 import NaukriProfileMakeover from './pages/Services/NaukriProfileMakeover'
 import MockInterview from './pages/Services/MockInterview'
+import NotFound from './pages/NotFound'
+import JobApplication from './pages/jobApplication'
 
 const App = () => {
   return (
@@ -22,9 +24,11 @@ const App = () => {
       <Routes> 
         <Route path='/' element={<Layout/>}>
            <Route path="/" element={<Home />} />
+           <Route path="*" element={<NotFound/>} />
            <Route path="/about" element={<About />} />
            <Route path="/faq" element={<Faq />} />
            <Route path="/contact-us" element={<ContactUs/>} />
+           <Route path="/job-application" element={<JobApplication/>} />
            <Route path="/resume-writing-services-india" element={<ResumeBuilding />} />
            <Route path="/linkedin-profile-makeover-india" element={<LinkedInProfileMakeover />} />
            <Route path="/profile-evaluation" element={<ProfileEvaluation />} />

@@ -39,19 +39,19 @@ const DropDown = () => {
         },
         {
             title:"Interview Preparation",
-            path:"/",
+            path:"/interview-preparation",
         },
         {
             title:"Offers",
-            path:"/",
+            path:"/offers",
         },
         {
             title:"Mega Bundle Offer",
-            path:"/",
+            path:"/services",
         },
         {
             title:"Registration",
-            path:"/",
+            path:"/register",
         },
     ]
     

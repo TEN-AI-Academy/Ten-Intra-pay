@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const ContactDisplay = () => {
  
@@ -27,7 +28,7 @@ const ContactDisplay = () => {
                 <div className='block text-white'>
                     <h2 className='font-semibold text-2xl'>Job Application Form</h2>
                     <p className='font-medium'>Use the given Promo code to avail Employee Referral Program</p>
-                    <button className='border border-white pr-3 pl-3 pt-0.5 pb-1 hover:bg-blue-400 text-sm'>Apply now</button>
+                    <Link to="/job-application"><button className='border border-white pr-3 pl-3 pt-0.5 pb-1 hover:bg-blue-400 text-sm'>Apply Now</button></Link>
                 </div>
             </div>
              <div className='flex gap-4 p-6'>

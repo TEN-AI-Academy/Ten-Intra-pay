@@ -1,6 +1,6 @@
-import AboutNavBar from "../components/About/AboutNavBar"
 import AboutContent from "../components/About/AboutContent"
 import Cards from "../components/About/Cards"
+import AboutBanner from "../components/About/AboutBanner"
 
 
 const About=()=>{
@@ -10,7 +10,7 @@ const About=()=>{
     return(
         <>
          
-         <AboutNavBar/>
+         <AboutBanner/>
          <AboutContent/>
          <Cards/>
         

@@ -74,27 +74,27 @@ const SideBarMobile = () => {
         },
         {
             title:"Resume Sample and Checklist",
-            path:"/",
+            path:"/resume-writing-services-india#checklist",
         },
         {
             title:"LinkedIn Sample and Checklist",
-            path:"/",
+            path:"/inkedin-profile-makeover-india#checklist",
         },
         {
             title:"Competitor Overview",
-            path:"/",
+            path:"/profile-evaluation#competitor",
         },
         {
             title:"Offers",
-            path:"/",
+            path:"/offers",
         },
         {
             title:"Mega Bundle Offer",
-            path:"/",
+            path:"/services",
         },
         {
             title:"Registration",
-            path:"/",
+            path:"/register",
         },
         {
             title:"Others",
@@ -143,7 +143,7 @@ const SideBarMobile = () => {
           <h2 className="text-lg text-white font-bold">Menu</h2>
           <button onClick={() => setOpen(false)} className='text-lg text-white'>🡨</button>
         </div>
-        <nav className="p-2 space-y-4">
+        <nav className="p-2 space-y-4 mb-10">
           <ul>
              {options.map((item,index)=>{
                 return (

@@ -7,7 +7,6 @@ import ContactUsForm from '../components/contactUs/contactUsForm'
 const ContactUs = () => {
 
     const breadCrum = [
-    { name: 'Home', link: '/' },
     { name: 'Contact Us', link: 'contact-us' }
   ]
   return (
