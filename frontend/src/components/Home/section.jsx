@@ -26,7 +26,7 @@ const Section = () => {
   };
 
   return (
-    <div className="bg-[#0D1B3A] py-12 min-h-screen">
+    <div className="bg-[#0D1B3A] py-30 min-h-screen">
       {/* Title */}
       <div className="text-center mb-8">
         <h2 className="text-white font-normal text-3xl">TESTIMONIALS</h2>
