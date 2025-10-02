@@ -104,7 +104,7 @@ const LinkedInRecommendation = () => {
               <StepsCard
                 step={2}
                 text={
-                  'Share your Resume at service@whiteslips.com or on the payment page.'
+                  'Share your Resume at service@comapny.com or on the payment page.'
                 }
                 image='resume-share.png'
               />

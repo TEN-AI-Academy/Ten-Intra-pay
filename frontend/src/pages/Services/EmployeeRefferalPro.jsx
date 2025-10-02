@@ -46,7 +46,7 @@ const EmployeeRefferalPro = () => {
         <div className='grid md:grid-cols-2 gap-5 my-5 md:px-5'>
           <div className='w-auto'>
             <p className='text-xl font-semibold text-blue-900 leading-5 mb-3'>
-              Benefits of availing Employee Referral Pro from Whiteslips
+              Benefits of availing Employee Referral Pro from comapny
             </p>
             <EmployeeBenefitsTable />
           </div>

@@ -53,7 +53,7 @@ const SideBarMobile = () => {
             
         },
         {
-            title:"Whiteslips Pro",
+            title:"comapny Pro",
             path:"/pro",
         },
         {

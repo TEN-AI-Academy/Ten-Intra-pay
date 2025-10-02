@@ -302,7 +302,7 @@ const LinkedInProfileMakeover = () => {
               <StepsCard
                 step={2}
                 text={
-                  'Share your LinkedIn ID and Temporary Password at service@whiteslips.com or on the Payment Page comments section'
+                  'Share your LinkedIn ID and Temporary Password at service@comapny.com or on the Payment Page comments section'
                 }
                 image='share.png'
               />

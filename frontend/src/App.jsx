@@ -17,6 +17,10 @@ import NaukriProfileMakeover from './pages/Services/NaukriProfileMakeover'
 import MockInterview from './pages/Services/MockInterview'
 import NotFound from './pages/NotFound'
 import JobApplication from './pages/jobApplication'
+import InterviewPreparation from './pages/Services/InterviewPreparation'
+import Offers from './pages/Services/Offers'
+import Services from './pages/Services/Services'
+import WhyUs from './pages/WhyUs'
 
 const App = () => {
   return (
@@ -37,6 +41,10 @@ const App = () => {
            <Route path='/linkedin-recommendations' element={<LinkedInRecommendation/>}/>
            <Route path='/naukri-profile-makeover' element={<NaukriProfileMakeover/>}/>
            <Route path='/mock-interview' element={<MockInterview/>}/>
+           <Route path='/interview-preparation' element={<InterviewPreparation/>}/>
+           <Route path='/offers' element={<Offers/>}/>
+           <Route path='/services' element={<Services/>}/>
+           <Route path='/why-us' element={<WhyUs/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

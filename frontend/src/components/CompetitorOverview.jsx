@@ -19,7 +19,7 @@ const CompetitorOverview = () => {
               Service Details
             </td>
             <td className='border-1 p-2 font-semibold text-center border-gray-400 bg-slate-800 text-white'>
-              Whiteslips
+              comapny
             </td>
             <td className='border-1 p-2 font-semibold text-center border-gray-400'>
               Naukri

@@ -21,13 +21,13 @@ const EmployeeBenefitsTable = () => {
         <tbody className='border-1 border-gray-600'>
           <tr>
             <td className='w-3/5 border-1 border-white bg-blue-500 text-white p-2 py-3 font-semibold'>
-              Benefits of Whiteslips PRO
+              Benefits of comapny PRO
             </td>
             <td className='border-1 border-white bg-gray-400 text-white p-1 leading-4 text-center font-semibold'>
               Free Service
             </td>
             <td className=' border-1 border-white bg-blue-950 text-white px-4 leading-4 text-center font-semibold'>
-              Whiteslips PRO
+              comapny PRO
             </td>
           </tr>
           <tr>

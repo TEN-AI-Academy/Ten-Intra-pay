@@ -26,7 +26,7 @@ const OnlineCV = () => {
               LinkedIn, accessible through single clicks.
             </p>
             <p className=' my-3'>
-              It’s important to have your online Resume ready! With Whiteslips
+              It’s important to have your online Resume ready! With comapny
               Resume hosting service, you get an URL address for your Resume
               which is accessible anytime, anywhere for a validity of 2 years.
               You are just one click away from sending the URL to your Potential

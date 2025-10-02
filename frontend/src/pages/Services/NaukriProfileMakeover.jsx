@@ -99,7 +99,7 @@ const NaukriProfileMakeover = () => {
               <StepsCard
                 step={2}
                 text={
-                  'Share your Naukri User Id with temporary password at service@whiteslips.com or on the payment page.'
+                  'Share your Naukri User Id with temporary password at service@comapny.com or on the payment page.'
                 }
                 image='resume-share.png'
               />
