@@ -22,6 +22,7 @@ import Offers from './pages/Services/Offers'
 import Services from './pages/Services/Services'
 import WhyUs from './pages/WhyUs'
 import EmployeeRegistration from './pages/EmployeeRegistration'
+import Registration from './pages/Services/Registration'
 
 const App = () => {
   return (
@@ -47,6 +48,7 @@ const App = () => {
            <Route path='/services' element={<Services/>}/>
            <Route path='/why-us' element={<WhyUs/>}/>
            <Route path='/employee-registration' element={<EmployeeRegistration/>}/>
+           <Route path='/register' element={<Registration/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
