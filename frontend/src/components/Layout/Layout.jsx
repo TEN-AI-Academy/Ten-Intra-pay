@@ -1,19 +1,19 @@
+import { Outlet } from 'react-router-dom'
+import Footer from './footer'
+import NavBar from './navBar/navBar'
+import ContactModal from '../ContactModal'
 
-
-import { Outlet } from "react-router-dom";
-import Footer from "./footer";
-import NavBar from "./navBar/navBar";
-
-function Layout() {
+function Layout () {
   return (
-    <>
-      <NavBar/>
-      <div className="">
-        <Outlet /> 
+    <div className='overflow-hidden relative'>
+        <ContactModal />
+      <NavBar />
+      <div className=''>
+        <Outlet />
       </div>
-      <Footer/>
-    </>
-  );
+      <Footer />
+    </div>
+  )
 }
 
-export default Layout;
+export default Layout

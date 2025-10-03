@@ -21,6 +21,7 @@ import InterviewPreparation from './pages/Services/InterviewPreparation'
 import Offers from './pages/Services/Offers'
 import Services from './pages/Services/Services'
 import WhyUs from './pages/WhyUs'
+import EmployeeRegistration from './pages/EmployeeRegistration'
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
            <Route path='/offers' element={<Offers/>}/>
            <Route path='/services' element={<Services/>}/>
            <Route path='/why-us' element={<WhyUs/>}/>
+           <Route path='/employee-registration' element={<EmployeeRegistration/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
