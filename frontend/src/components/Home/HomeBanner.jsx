@@ -23,9 +23,9 @@ const HomeBanner = () => {
 
     const FirstBanner=({image_path,heading,text})=>{
         return <div className='w-[100vw]  '>
-        <div className='w-full py-5 px-10 md:py-12 h-fit  relative bg-cover md:bg-right bg-no-repeat md:flex md:justify-around  ' style={{ backgroundImage: `url(/images/${image_path})` }}>
+        <div className='w-full py-6.25 px-10 md:py-10 h-fit  relative bg-cover md:bg-right bg-no-repeat md:flex md:justify-around  ' style={{ backgroundImage: `url(/images/${image_path})` }}>
         <div className='md:mx-20 flex flex-col md:py-15'>
-           <div><span className='w-full    mb-2  text-white text-xl md:text-3xl flex justify-center md:justify-normal font-bold '>{heading}</span></div>
+           <div><span className='w-full    mb-2  text-white text-xl text-center md:text-3xl flex justify-center md:justify-normal font-bold '>{heading}</span></div>
          <div><span className='w-full    mb-5  text-white text-sm md:text-2xl flex justify-center md:justify-start text-center md:text-start  font-medium md:font-normal '>{text}</span></div>
          <Link to={"/"}><button className='p-2 px-4 md:px-6 mb-2 mx-20 md:mx-0 bg-blue-400 rounded-lg hover:bg-amber-600  text-sm md:text-lg text-white font-medium '>Upload Resume</button></Link>
         </div>
@@ -44,7 +44,7 @@ const HomeBanner = () => {
 
     const Banner=({image_path,heading,text,button,link})=>{
         return <div className='w-[100vw] h-auto'>
-        <div className='w-full py-5 px-10 md:py-0 md:px-10 h-90 md:h-100 bg-[#2e63af] z-0 flex flex-wrap justify-around' >
+        <div className='w-full py-4 px-10 md:py-0 md:px-10 h-90 md:h-100 bg-[#2e63af] z-0 flex flex-wrap justify-around' >
          <div className='flex flex-col justify-start md:p-0 md:py-20 md:px-0 md:w-1/2'>
             <div><span className='w-[100%]   md:mx-0 mb-2  text-white text-xl md:text-3xl flex justify-center md:justify-start font-bold '>{heading}</span></div>
          <div><span className='w-[100%]  md:mx-0 mb-5  text-white text-sm md:text-2xl flex flex-wrap justify-center md:justify-start text-center md:text-start  font-medium md:font-normal '>{text}</span></div>
